@@ -111,7 +111,7 @@ body.no-ember .d-header {
 .powered-by-discourse {
     margin-bottom: 3em;
     border-radius: 0px 0px 1em 0px;
-    display:hidden;
+    display: none;
 
     background: $BGPrimary;
     backdrop-filter: blur(2rem);
