@@ -24,7 +24,9 @@ body {
 
     @else {
         background-image: url($Background_Image) !important;
-        background-size: cover;
+        background-repear: no-repeat;
+        background-color: #111217;
+        background-attachment: none;
     }
 }
 
