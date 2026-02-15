@@ -26,7 +26,8 @@ body {
         background-image: url($Background_Image) !important;
         background-repeat: no-repeat;
         background-color: #111217;
-        
+        background-attachment: initial;
+        background-size: initial;
     }
 }
 
