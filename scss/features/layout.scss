@@ -28,6 +28,8 @@ body {
         background-color: #111217;
         background-attachment: initial;
         background-size: initial;
+        background-position: center top;
+        
     }
 }
 
@@ -88,20 +90,21 @@ body.no-ember .d-header {
     top: 5px;
     width: 100%;
     margin-bottom: 15px;
-    margin-top: 5px;
+    margin-top: 15px;
 
     text-align: center;
     display: block;
     margin: auto;
-    position: fixed;
+    position: relative;
+    
 
     .d-header,
     &.d-header wrap {
         @include BorderByOption("more");
 
         top: 4px;
-        margin: auto;
-        width: 75%;
+        margin: 15px;
+        width: 100%;
 
         background: transparent;
 
