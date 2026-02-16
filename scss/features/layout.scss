@@ -131,6 +131,10 @@ body.no-ember .d-header {
     }
 }
 
+.ember7 {
+    max-width: 70%;
+}
+
 .search-menu .search-input,
 .search-menu-container .search-input {
     @include ClearMenu()
