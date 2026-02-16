@@ -35,8 +35,8 @@ body {
 
 div.not-found-container,
 #main-outlet-wrapper {
-    top: 15px;
-    left: 2%;
+    //top: 15px;
+    //left: 2%;
     position: relative;
     gap: 0px !important;
 
@@ -45,15 +45,15 @@ div.not-found-container,
     #main-outlet {
         backdrop-filter: blur(3rem) !important;
         -webkit-backdrop-filter: blur(3rem);
-        background: $BGPrimary !important;
+        background-color: #111217 !important;
 
-        width: 95%;
+        //width: 95%;
 
         padding-left: 10px;
         margin-left: 0px;
 
         padding-right: 10px;
-        margin-right: auto;
+        margin-right: 0px;
     }
 
     body.has-sidebar-page & {
