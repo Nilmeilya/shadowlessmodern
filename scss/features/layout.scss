@@ -88,12 +88,11 @@ body.no-ember .d-header {
     @include BorderByOption("more");
 
     top: 5px;
-    width: 100%;
+    min-width: 95%;
     margin: 15px;
 
     text-align: center;
     display: block;
-    margin: auto;
     position: relative;
     background: rgba(17, 18, 23, 0.8);
     
