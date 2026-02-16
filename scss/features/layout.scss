@@ -103,9 +103,9 @@ body.no-ember .d-header {
         @include BorderByOption("more");
 
         top: 4px;
-        margin: 15px;
+        //margin: 15px;
         width: 100%;
-
+        box-shadow: 0px 0px !important;
         background: transparent;
 
         .wrap {
