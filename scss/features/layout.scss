@@ -132,7 +132,9 @@ body.no-ember .d-header {
 }
 
 #ember7.regular{
-    max-width: 70%;
+    max-width: 1200px;
+    min-width: 80%;
+    margin: auto;
 }
 
 .search-menu .search-input,
